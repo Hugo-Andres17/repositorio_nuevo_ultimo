@@ -16,9 +16,17 @@ h2
 p
 {
     margin-left: 2%;
+    margin-right: 2%;
 }
 
 h4
 {
     margin-left: 3%;
 }
+
+.ubicacion
+{
+    text-align: center;
+    padding-top: 5%;
+}
+
