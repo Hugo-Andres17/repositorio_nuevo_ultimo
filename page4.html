@@ -20,9 +20,9 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="Mailto:puglife@gmail.com" aria-label="Mail">Contact</a>
-              <a class="nav-link" href="page3.html">Pictures</a>
-              <a class="nav-link" href="page4.html">Location</a>
+              <a class="nav-link active" aria-current="page" href="Mailto:puglife@gmail.com" aria-label="Mail">Adoptar</a>
+              <a class="nav-link" href="page3.html">Imagenes</a>
+              <a class="nav-link" href="page4.html">Ubicacion</a>
               <a class="nav-link disabled" aria-disabled="true"> Pug Life <img src="imagenes_pagina_pugs/logo4pug.ico" alt="logo de pagina" height="20px" ></a>
             </div>
           </div>
@@ -55,6 +55,74 @@
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d321060.5798014083!2d-114.05926182956966!3d51.047810775850294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x537170039f843fd5%3A0x266d3bb1b652b63a!2sCalgary%2C%20Alberta%2C%20Canad%C3%A1!5e0!3m2!1ses-419!2sar!4v1733175163305!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     
     </div>
+
+    <br><br>
+
+    <form class="row g-3">
+        <div class="col-md-4">
+          <label for="validationDefault01" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="validationDefault01" value="" required>
+        </div>
+        <div class="col-md-4">
+          <label for="validationDefault02" class="form-label">Apellido</label>
+          <input type="text" class="form-control" id="validationDefault02" value="" required>
+        </div>
+        <div class="col-md-4">
+          <label for="validationDefaultUsername" class="form-label">Mail</label>
+          <div class="input-group">
+            <span class="input-group-text" id="inputGroupPrepend2">@</span>
+            <input type="text" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2" required>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationDefault03" class="form-label">Ciudad</label>
+          <input type="text" class="form-control" id="validationDefault03" required>
+        </div>
+        <div class="col-md-3">
+          <label for="validationDefault04" class="form-label">Pais</label>
+          <select class="form-select" id="validationDefault04" required>
+            <option selected disabled value="">Seleccionar...</option>
+            <option>Argentina</option>
+            <option>Chile</option>
+            <option>Uruguay</option>
+            <option>Canada</option>
+            <option>Mexico</option>
+            <option>Colombia</option>
+            <option>Estados Unidos</option>
+            <option>Venezuela</option>
+            <option>Ecuador</option>
+            <option>Bolivia</option>
+            <option>Brasil</option>
+            <option>Costa Rica</option>
+            <option>Paraguay</option>
+            <option>El Salvador</option>
+            <option>Panama</option>
+            <option>Belice</option>
+            <option>Nicaragua</option>
+            <option>Honduras</option>
+            <option>Peru</option>
+            <option>Republica Domenicana</option>
+            <option>Puerto Rico</option>
+          </select>
+        </div>
+        <div class="col-md-3">
+          <label for="validationDefault05" class="form-label">Telefono</label>
+          <input type="text" class="form-control" id="validationDefault05" required>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+            <label class="form-check-label" for="invalidCheck2">
+                Aceptar términos y condiciones
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
+      </form>
+
+
 </main>
 
 
