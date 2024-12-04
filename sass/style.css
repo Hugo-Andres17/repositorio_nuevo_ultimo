@@ -1,17 +1,46 @@
-/* Error: expected ")".
- *    ,
- * 14 |   "orange": $colortres
- *    |           ^
- *    '
- *   style.scss 14:11  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected ")".\a    \2577 \a 14 \2502    "orange": $colortres\a    \2502            ^\a    \2575 \a   style.scss 14:11  root stylesheet';
+h1 {
+  text-align: center;
 }
+
+footer {
+  padding-top: 5%;
+}
+
+h2 {
+  margin-left: 3%;
+}
+
+p {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+h4 {
+  margin-left: 3%;
+}
+
+.ubicacion {
+  text-align: center;
+  padding-top: 5%;
+}
+
+.gridcontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  grid-template-areas: "momo" "momo" "momo";
+}
+
+.containerdos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  grid-template-areas: "pug" "pug" "pug";
+}
+
+.momo {
+  transform: scale(1);
+  transition: all 0.15s ease-in;
+}
+
+/*# sourceMappingURL=style.css.map */
