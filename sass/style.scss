@@ -1,0 +1,64 @@
+h1 {
+  text-align: center;
+}
+
+
+
+$primary: #0074d9;
+$danger: #ff4136;
+$colortres: #fd7e14;
+
+$theme-colors: (
+  "primary": $primary,
+  "danger": $danger
+  "orange": $colortres
+);
+
+footer {
+  padding-top: 5%;
+}
+
+body{
+  background-color: $primary;
+}
+
+h2 {
+  margin-left: 3%;
+}
+
+p {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+h4 {
+  margin-left: 3%;
+}
+
+.ubicacion {
+  text-align: center;
+  padding-top: 5%;
+}
+
+.gridcontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  grid-template-areas: "momo" "momo" "momo";
+}
+
+.containerdos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  grid-template-areas: "pug" "pug" "pug";
+}
+
+.momo {
+  transform: scale(1);
+  transition: all 0.15s ease-in;
+}
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+
