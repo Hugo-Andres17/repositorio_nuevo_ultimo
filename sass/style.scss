@@ -1,21 +1,12 @@
 h1{text-align: center;} 
 
-$primary: #0074d9;
-$danger: #ff4136;
-
-$theme-colors: (
-  "primary": $primary,
-  "danger": $danger
-  
-);
-
-footer {
+footer 
+{
   padding-top: 5%;
 }
 
-
-
-h2 {
+h2 
+{
   margin-left: 3%;
 }
 
@@ -28,7 +19,8 @@ h4 {
   margin-left: 3%;
 }
 
-.ubicacion {
+.ubicacion
+{
   text-align: center;
   padding-top: 5%;
 }
@@ -51,3 +43,45 @@ h4 {
   transform: scale(1);
   transition: all 0.15s ease-in;
 } 
+
+.momo:hover
+{
+  transform: scale(1.05);
+}
+
+.pug
+{
+  transform: scale(1);
+  transition: all 0.15s ease-in;
+} 
+
+.pug:hover
+{
+  transform: scale(1.05);
+}
+
+
+
+header
+{
+  width: 100%;
+  height: 50%;
+}
+
+.contenedorinicio
+{
+  display: grid;
+  column-gap: 40px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: 
+  "prime1" "prime" "prime";
+  
+}
+
+.prime1
+{
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+
