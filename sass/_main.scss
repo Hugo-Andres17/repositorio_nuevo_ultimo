@@ -1,0 +1,55 @@
+h2 
+{
+  margin-left: 3%;
+}
+
+p {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+h4 {
+  margin-left: 3%;
+}
+
+.ubicacion
+{
+  text-align: center;
+  padding-top: 5%;
+}
+
+.gridcontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  grid-template-areas: 'momo momo momo';
+}
+
+.containerdos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  grid-template-areas: 'pug pug pug';
+}
+
+.momo {
+  transform: scale(1);
+  transition: all 0.15s ease-in;
+} 
+
+.momo:hover
+{
+  transform: scale(1.05);
+}
+
+.pug
+{
+  transform: scale(1);
+  transition: all 0.15s ease-in;
+} 
+
+.pug:hover
+{
+  transform: scale(1.05);
+}
+

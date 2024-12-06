@@ -1,0 +1,34 @@
+header
+{
+  width: 100%;
+  height: 50%;
+}
+
+h1{text-align: center;} 
+
+.contenedorinicio
+{
+  display: grid;
+  column-gap: 40px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: 
+  'prime1 prime2 prime';
+  
+}
+
+.prime1
+{
+  padding-left: 50px;
+  padding-top: 20px;
+  grid-area: prime1;
+}
+
+.prime2
+{
+  grid-area: prime2;
+}
+
+.prime
+{
+  grid-area: prime;
+}

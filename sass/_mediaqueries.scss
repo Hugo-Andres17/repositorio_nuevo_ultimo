@@ -1,0 +1,161 @@
+@media only screen and (max-width: 480px)
+{ 
+  .contenedorinicio
+  {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+   'prime2'
+   'prime1'
+   'prime';
+    padding-top: 10%;
+    text-align: center;
+    
+  }
+
+
+  header
+  {
+    height: 190%;
+  }
+
+  .prime2
+  {
+    padding-top: 10%;
+    font-size: 55px;
+    
+  }
+
+  .gridcontainer
+  {
+    
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      text-align: center;
+      grid-template-areas: 
+      'momo'
+      'momo'
+      'momo';
+      row-gap: 25px;
+    
+  }
+
+  .containerdos
+  {
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    text-align: center;
+    grid-template-areas:
+    'pug'
+    'pug'
+    'pug';
+  row-gap: 25px;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width:600px)
+{ 
+  .contenedorinicio
+  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 'prime1 prime2' 
+                          'prime prime';
+    row-gap: 25px;
+  }
+
+  header{
+    height:100%;
+  }
+
+  .gridcontainer
+  {
+    
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      text-align: center;
+      grid-template-areas: 
+      'momo'
+      'momo'
+      'momo';
+      row-gap: 25px;
+    
+  }
+
+  .containerdos
+  {
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    text-align: center;
+    grid-template-areas:
+    'pug'
+    'pug' 
+    'pug';
+  row-gap: 25px;
+  }
+
+
+
+}
+
+@media only screen and (min-width: 601px) and (max-width:900px)
+{
+
+  .contenedorinicio
+  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr ;
+    grid-template-areas:
+   'prime1 prime2'
+   'prime prime';
+    row-gap: 100px;
+    column-gap: 20px;
+    
+  }
+
+  header
+  {
+    height: 110%;
+  }
+
+  .prime2{
+    padding: 20%;
+  }
+
+  .gridcontainer
+  {
+    
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      text-align: center;
+      grid-template-areas: 
+      'momo'
+      'momo'
+      'momo';
+      row-gap: 25px;
+    
+  }
+
+  .containerdos
+  {
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    text-align: center;
+    grid-template-areas:
+    'pug' 
+    'pug' 
+    'pug';
+  row-gap: 25px;
+  }
+
+ 
+}
